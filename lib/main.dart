@@ -21,7 +21,9 @@ class ProfilePage extends StatelessWidget {
 
         backgroundColor: Colors.amber,
 
+
         title: Text("My Profile"),
+
 
         actions: [
           IconButton(
