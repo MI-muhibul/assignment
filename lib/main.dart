@@ -20,7 +20,7 @@ class ProfilePage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
 
-        backgroundColor: Colors.amber,
+        backgroundColor: Colors.yellow.shade700,
 
 
         title: Text("My Profile"),
@@ -38,17 +38,17 @@ class ProfilePage extends StatelessWidget {
         ],
       ),
       body: Padding(
-        padding: const EdgeInsets.all(16.0),
+        padding: const EdgeInsets.all(8.0),
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             CircleAvatar(
-              radius: 70,
+              radius: 77,
               backgroundColor: Colors.purple.shade100,
               child: Icon(
                 Icons.icecream_outlined,
                 size: 80,
-                color: Colors.purple,
+                color: Colors.black,
               ),
             ),
             SizedBox(height: 10),
@@ -58,12 +58,12 @@ class ProfilePage extends StatelessWidget {
             ),
             SizedBox(height: 40),
             CircleAvatar(
-              radius: 70,
+              radius: 77,
               backgroundColor: Colors.purple.shade100,
               child: Icon(
                 Icons.code,
                 size: 80,
-                color: Colors.purple,
+                color: Colors.black,
               ),
             ),
             SizedBox(height: 10),
@@ -73,12 +73,12 @@ class ProfilePage extends StatelessWidget {
             ),
             SizedBox(height: 40),
             CircleAvatar(
-              radius: 70,
+              radius: 77,
               backgroundColor: Colors.purple.shade100,
               child: Icon(
                 Icons.water_drop_outlined,
                 size: 80,
-                color: Colors.purple,
+                color: Colors.black,
               ),
             ),
             SizedBox(height: 10),
