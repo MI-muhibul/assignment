@@ -18,8 +18,11 @@ class ProfilePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+
         backgroundColor: Colors.amber,
+
         title: Text("My Profile"),
+
         actions: [
           IconButton(
             icon: Icon(Icons.add),
